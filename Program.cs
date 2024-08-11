@@ -25,7 +25,7 @@ internal class Program
 
         PessoaFisica PFisica = new PessoaFisica();
         PFisica.NomePessoFisica = "Pablo Perez";
-        PFisica.CPFPessoaFisica = "364.905.628-39";
+        PFisica.CPFPessoaFisica = "364.905.628-XX";
         PFisica.EnderecoPessoaFisica = "Av Paraibuna, 44 CEP: 09930-560 | Campanário - Diadema - SP";
         PFisica.ApresentacaoPessoaFisica();
 
