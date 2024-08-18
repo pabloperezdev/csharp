@@ -33,5 +33,11 @@ internal class Program
         capturaArquivo.DiretorioEntrada = "c:\\Download\\";
         capturaArquivo.ArquivoEntrada = "CurriculoPablo.txt";
         capturaArquivo.DiretorioArquivoEntrada();
+
+        CalculadoraSimples calcsimples = new CalculadoraSimples();
+        calcsimples.Somar(3,5);
+        calcsimples.Subtrair(7,3);  
+        calcsimples.Multiplicar(8,3);
+        calcsimples.Dividir(9,3);
     }
 }
