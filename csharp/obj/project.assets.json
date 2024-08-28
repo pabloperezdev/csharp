@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "csharp.common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/csharp.common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/csharp.common.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "csharp.common/1.0.0": {
+      "type": "project",
+      "path": "../csharp.common/csharp.common.csproj",
+      "msbuildProject": "../csharp.common/csharp.common.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "csharp.common >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\PABLO\\.nuget\\packages\\": {}
@@ -13,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PABLO\\workspace\\Estudo\\csharp\\csharp.csproj",
+      "projectUniqueName": "C:\\Users\\PABLO\\workspace\\Estudo\\csharp\\csharp\\csharp.csproj",
       "projectName": "csharp",
-      "projectPath": "C:\\Users\\PABLO\\workspace\\Estudo\\csharp\\csharp.csproj",
+      "projectPath": "C:\\Users\\PABLO\\workspace\\Estudo\\csharp\\csharp\\csharp.csproj",
       "packagesPath": "C:\\Users\\PABLO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PABLO\\workspace\\Estudo\\csharp\\obj\\",
+      "outputPath": "C:\\Users\\PABLO\\workspace\\Estudo\\csharp\\csharp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\PABLO\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -31,7 +50,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\PABLO\\workspace\\Estudo\\csharp\\csharp.common\\csharp.common.csproj": {
+              "projectPath": "C:\\Users\\PABLO\\workspace\\Estudo\\csharp\\csharp.common\\csharp.common.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

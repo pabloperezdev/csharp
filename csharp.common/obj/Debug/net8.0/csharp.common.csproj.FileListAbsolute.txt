@@ -1,0 +1,12 @@
+C:\Users\PABLO\workspace\Estudo\csharp\csharp.common\bin\Debug\net8.0\csharp.common.deps.json
+C:\Users\PABLO\workspace\Estudo\csharp\csharp.common\bin\Debug\net8.0\csharp.common.dll
+C:\Users\PABLO\workspace\Estudo\csharp\csharp.common\bin\Debug\net8.0\csharp.common.pdb
+C:\Users\PABLO\workspace\Estudo\csharp\csharp.common\obj\Debug\net8.0\csharp.common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PABLO\workspace\Estudo\csharp\csharp.common\obj\Debug\net8.0\csharp.common.AssemblyInfoInputs.cache
+C:\Users\PABLO\workspace\Estudo\csharp\csharp.common\obj\Debug\net8.0\csharp.common.AssemblyInfo.cs
+C:\Users\PABLO\workspace\Estudo\csharp\csharp.common\obj\Debug\net8.0\csharp.common.csproj.CoreCompileInputs.cache
+C:\Users\PABLO\workspace\Estudo\csharp\csharp.common\obj\Debug\net8.0\csharp.common.sourcelink.json
+C:\Users\PABLO\workspace\Estudo\csharp\csharp.common\obj\Debug\net8.0\csharp.common.dll
+C:\Users\PABLO\workspace\Estudo\csharp\csharp.common\obj\Debug\net8.0\refint\csharp.common.dll
+C:\Users\PABLO\workspace\Estudo\csharp\csharp.common\obj\Debug\net8.0\csharp.common.pdb
+C:\Users\PABLO\workspace\Estudo\csharp\csharp.common\obj\Debug\net8.0\ref\csharp.common.dll
